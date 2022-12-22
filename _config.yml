@@ -18,18 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Burgyn's blog
-email: mino@burgyn.online
+title: Swallow Poll's BLOG
+email: info@swallowpoll.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about everything possible and impossible that dotnet developer face every day.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: minomartiniak
-github_username:  burgyn
+# twitter_username: minomartiniak
+github_username:  Swallow-Poll
 
 author:
-  name: Miňo Martiniak
-  email: mino.martiniak@gmail.com
+  name: Swallow Poll team
+  email: info@swallowpoll.com
 
 # Build settings
 remote_theme: chesterhow/tale
@@ -56,7 +56,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # Google analytics
-google_analytics: UA-154408250-1
+# google_analytics: 
 
 jekyll_compose:
   auto_open: true
@@ -66,7 +66,7 @@ jekyll_compose:
       author: Miňo Martiniak
       comments: true
 
-disqus: blog-burgyn-online
+# disqus: blog-burgyn-online
 
 # Exclude from processing.
 # The following items will not be processed, by default.
