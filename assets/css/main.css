@@ -1,25 +1,70 @@
-body{
+body {
     background-color: #121212;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
 }
 
 .nav {
-    box-shadow: 0 2px 2px -2px rgba(255,255,255,.15) !important;
+    box-shadow: 0 2px 2px -2px rgba(255, 255, 255, .15) !important;
 }
 
-.catalogue-title{
+.catalogue-title {
     color: rgba(255, 255, 255, 0.87) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
 }
 
-.catalogue-time{
+.catalogue-time {
     color: rgba(255, 255, 255, 0.38) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+}
+
+.catalogue-item {
+    color: rgba(255, 255, 255, 0.6) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .15) !important;
+}
+
+.catalogue-line {
+    border-top: 0.2rem solid rgba(38, 126, 201, .87) !important;
+}
+
+.pagination {
+    border-top: 0.5px solid rgba(255, 255, 255, .15) !important;
+}
+
+.pagination span {
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+}
+
+.pagination .arrow {
+    color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .nav a {
-    color: rgba(255, 255, 255, 0.38) !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
 }
 
-.nav-title{
+.nav-title {
     color: rgba(255, 255, 255, 0.38) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
 }
 
 .highlighter-rouge {
@@ -45,6 +90,42 @@ pre {
     max-width: 16px;
 }
 
-.post-header{
+.post-header {
     font-size: 14px;
+}
+
+footer {
+    width: 100% !important;
+    color-scheme: light !important;
+    text-align: start !important;
+}
+
+.footer-text {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+}
+
+.footer-text * {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.38);
+}
+
+.post-content {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.post-meta {
+    color: rgba(255, 255, 255, 0.38) !important;
+}
+
+article>header>h1 {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+blockquote {
+    border-left: 0.25rem solid rgba(38, 126, 201, .87) !important;
 }

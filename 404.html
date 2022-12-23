@@ -4,104 +4,150 @@ layout: default
 ---
 
 <style type="text/css" media="screen">
-
-#notfound .notfound {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.notfound {
-  max-width: 520px;
-  width: 100%;
-  line-height: 1.4;
-  text-align: center;
-}
-
-.notfound .notfound-404 {
-  position: relative;
-  height: 240px;
-}
-
-.notfound .notfound-404 h1 {
-  font-family: 'Montserrat', sans-serif;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 252px;
-  font-weight: 900;
-  margin: 0px;
-  color: #262626;
-  text-transform: uppercase;
-  letter-spacing: -40px;
-  margin-left: -20px;
-}
-
-.notfound .notfound-404 h1>span {
-  text-shadow: -8px 0px 0px #fff;
-}
-
-.notfound .notfound-404 h3 {
-  font-family: 'Cabin', sans-serif;
-  position: relative;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #262626;
-  margin: 0px;
-  letter-spacing: 3px;
-  padding-left: 6px;
-}
-
-.notfound h2 {
-  font-family: 'Cabin', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #000;
-  margin-top: 0px;
-  margin-bottom: 25px;
-}
-
-@media only screen and (max-width: 767px) {
-  .notfound .notfound-404 {
-    height: 200px;
+  h3 {
+    color: rgba(255, 255, 255, 0.38);
   }
-  .notfound .notfound-404 h1 {
-    font-size: 200px;
-  }
-}
 
-@media only screen and (max-width: 480px) {
-  .notfound .notfound-404 {
-    height: 162px;
-  }
-  .notfound .notfound-404 h1 {
-    font-size: 162px;
-    height: 150px;
-    line-height: 162px;
-  }
-  .notfound h2 {
-    font-size: 16px;
-  }
-}
+  .not-found {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 122px;
+    line-height: 150%;
+    text-align: center;
 
+    color: rgba(255, 255, 255, 0.15);
+
+    margin-top: 130px;
+    margin-bottom: 8px;
+  }
+
+  .neon {
+    color: #FFFFFF;
+
+    text-shadow: -2px -2px 6px rgba(255, 255, 255, 0.25), 2px 2px 6px rgba(255, 255, 255, 0.25);
+    filter: blur(1px);
+  }
+
+  .turn-off {
+    animation-name: turn-off;
+    animation-duration: .7s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes turn-off {
+    0% {}
+
+    100% {
+      color: rgba(255, 255, 255, 0.15);
+
+      text-shadow: none;
+      filter: none;
+    }
+  }
+
+  .not-found-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 150%;
+
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 90px;
+    color: rgba(255, 255, 255, 0.6);
+
+    opacity: 0;
+    animation-name: show;
+    animation-duration: .4s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .link-button {
+    width: 100%;
+    margin-top: 50px;
+
+    opacity: 0;
+    animation-name: show;
+    animation-duration: .4s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+  }
 </style>
 
-<div class="container">
-<div id="notfound">
-		<div class="notfound">
-			<div class="notfound-404">
-				<h3>Oops! Page not found</h3>
-				<h1><span>4</span><span>0</span><span>4</span></h1>
-			</div>
-			<h2>we are sorry, but the page you requested was not found</h2>
-		</div>
-	</div>
+<div class="container-center">
+  <div>
+    <div class="container-vertical">
+      <div class="child-container">
+        <p id="not-found" class="not-found not-found-blink">404</p>
+        <p class="not-found-text">The blog post you were looking for doesn’t seem to exist.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script>
+    function turnOff(element) {
+      element.removeClass("neon");
+    }
+
+    function turnOn(element) {
+      element.addClass("neon");
+    }
+
+    $(document).ready(function () {
+      const element = $('#not-found');
+
+      setTimeout(() => {
+        turnOn(element);
+
+        setTimeout(() => {
+          turnOff(element);
+
+          setTimeout(() => {
+            turnOn(element);
+
+            setTimeout(() => {
+              turnOff(element);
+
+              setTimeout(() => {
+                turnOn(element);
+
+                setTimeout(() => {
+                  turnOff(element);
+
+                  setTimeout(() => {
+                    turnOn(element);
+
+                    setTimeout(() => {
+                      turnOff(element);
+
+                      setTimeout(() => {
+                        turnOn(element);
+
+                        setTimeout(() => {
+                          element.addClass("turn-off");
+                        }, 20);
+                      }, 300);
+                    }, 10);
+                  }, 10);
+                }, 10);
+              }, 20);
+            }, 300);
+          }, 20);
+        }, 50);
+      }, 500);
+    });
+  </script>
 </div>

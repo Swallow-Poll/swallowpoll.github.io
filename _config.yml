@@ -21,7 +21,7 @@
 title: Swallow Poll's BLOG
 email: info@swallowpoll.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog about everything possible and impossible that dotnet developer face every day.
+  With Swallow Poll, you can easily create professional-looking online polls and surveys to gather opinions and feedback from your audience or schedule meetings. Whether you're a business, organization, or individual, our web app makes it simple to create and share polls with your network.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: minomartiniak
@@ -34,7 +34,7 @@ author:
 # Build settings
 remote_theme: chesterhow/tale
 
-permalink:    /:year/:month/:day/:title
+permalink:    /:year-:month-:day-:title
 paginate:     5
 
 plugins:
