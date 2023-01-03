@@ -42,6 +42,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-time-to-read
+  - jekyll-sitemap
 
 show_excerpts: true
 
@@ -65,6 +66,8 @@ jekyll_compose:
       tags: []
       author: Miňo Martiniak
       comments: false
+
+url: "https://blog.swallowpoll.com"
 
 # disqus: blog-burgyn-online
 

@@ -2,7 +2,7 @@
 layout: post
 title: ❄️ Improvements
 author: Miňo Martiniak
-date: 2022-11-09 18:00:00 +0100
+date: 2025-11-09 18:00:00 +0100
 ---
 These are all useful improvements that could enhance the user experience of an online poll or survey tool. Here's a bit more detail on each of these suggestions:
 

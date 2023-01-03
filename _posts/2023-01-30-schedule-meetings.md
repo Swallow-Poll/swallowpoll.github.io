@@ -2,7 +2,7 @@
 layout: post
 title: 📢 New feature - Schedule meeting
 author: Miňo Martiniak
-date: 2022-12-22 06:00:00 +0100
+date: 2025-12-22 06:00:00 +0100
 ---
 
 Announcing a New Feature Schedule Meeting with Swallow Poll

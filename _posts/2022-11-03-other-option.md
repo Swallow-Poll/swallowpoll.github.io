@@ -2,7 +2,7 @@
 layout: post
 title: 📢 New feature - "Other" option
 author: Miňo Martiniak
-date: 2022-11-03 18:00:00 +0100
+date: 2025-11-03 18:00:00 +0100
 ---
 The "Other" option is a useful feature that can be added to online polls and surveys to allow respondents to provide a custom answer that may not be covered by the predefined choices.
 
