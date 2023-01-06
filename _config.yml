@@ -43,6 +43,7 @@ plugins:
   - jekyll-feed
   - jekyll-time-to-read
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 show_excerpts: true
 
@@ -68,6 +69,10 @@ jekyll_compose:
       comments: false
 
 url: "https://blog.swallowpoll.com"
+
+twitter:
+  username: minomartiniak
+  card: summary
 
 # disqus: blog-burgyn-online
 

@@ -14,6 +14,7 @@ gem "minima", "~> 2.5"
 # Tale theme https://github.com/chesterhow/tale
 gem "jekyll-remote-theme"
 gem "jekyll-paginate"
+gem 'jekyll-seo-tag'
 
 gem 'jekyll-sitemap'
 
