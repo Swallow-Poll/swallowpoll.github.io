@@ -2,7 +2,7 @@
 layout: post
 title: 🥂 Swallow Poll - Free online poll and survey tool
 date: 2022-08-10 18:00:00 +0100
-author: Miňo Martiniak
+author: mino
 description: Swallow Poll is a new web-based tool for creating online polls and surveys. With Swallow Poll, you can easily create professional-looking polls and surveys that can be shared with your audience
 image: /assets/images/2022-08-10-announce-swallow-poll/swallow-poll.png
 ---
