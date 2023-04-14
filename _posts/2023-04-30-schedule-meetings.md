@@ -2,7 +2,7 @@
 layout: post
 title: 📢 New feature - Schedule meeting
 author: Miňo Martiniak
-date: 2023-04-30 06:00:00 +0100
+date: 2023-02-14 06:00:00 +0100
 ---
 
 [![Poll for dates](/assets/images/2023-04-30-meeting/meetings-mini.gif)](https://app.swallowpoll.com/)
