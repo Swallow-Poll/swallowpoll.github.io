@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 📢 New feature - Schedule meeting
-author: Miňo Martiniak
+author: mino
 date: 2023-02-14 06:00:00 +0100
 ---
 
@@ -9,7 +9,7 @@ date: 2023-02-14 06:00:00 +0100
 
 ## Introduction
 
-Hello, organizers and event planners! Today, we are introducing a new feature on our free online tool, [Swallow Poll](https://app.swallowpoll.com): ["Poll for Dates."](https://app.swallowpoll.com/Meeting) This straightforward feature aims to make scheduling meetings, events, and other group activities easier. Read on to learn how "Poll for Dates" can assist you.
+Hello, organizers and event planners! Today, we are introducing a new feature on our free online tool, [Swallow Poll](https://app.swallowpoll.com): ["Poll for Dates."](https://app.swallowpoll.com/meeting) This straightforward feature aims to make scheduling meetings, events, and other group activities easier. Read on to learn how "Poll for Dates" can assist you.
 
 ## What is "Poll for Dates"?
 
